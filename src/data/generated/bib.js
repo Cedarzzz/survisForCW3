@@ -25,17 +25,6 @@
         "volume": "85",
         "year": "2019"
     },
-    "chrisjanpauw_2018_how": {
-        "author": "Chrisjan Pauw",
-        "month": "12",
-        "organization": "Cointelegraph",
-        "publisher": "Cointelegraph",
-        "title": "How Significant Is Blockchain in Internet of Things?",
-        "type": "misc",
-        "url": "https://cointelegraph.com/news/how-significant-is-blockchain-in-internet-of-things",
-        "urldate": "2023-05-05",
-        "year": "2018"
-    },
     "ferrag_2021_the": {
         "abstract": "This article presents research challenges and a tutorial on performance evaluation of blockchain-based security and privacy systems for the Internet of Things (IoT). We start by summarizing the existing surveys that deal with blockchain security for IoT networks. Then, we review the blockchain-based security and privacy systems for seventeen types of IoT applications, e.g., Industry 4.0, software-defined networking, edge computing, Internet of Drones, Internet of Cloud, Internet of Energy, Internet of Vehicles, etc. We also review various consensus algorithms and provide a comparison with respect to the nine properties, such as latency, throughput, computation, storage, and communication costs, scalability, attack model, advantage, disadvantage, etc. Moreover, we present the security analysis techniques and provide a classification into four categories, including Burrows, Abadi, and Needham (BAN) logic, game theory, theory analysis, and AVISPA tool. In addition, we analyze the performance metrics, blockchain testbeds, and cryptography libraries used in the performance evaluation of blockchain-based security and privacy systems for the IoT networks. Based on the current survey, we discuss the major steps to follow for building and evaluating blockchain-based security and privacy systems. Finally, we discuss and highlight open challenges and future research opportunities. ,",
         "author": "Ferrag, Mohamed Amine and Shu, Lei",
@@ -111,16 +100,6 @@
         "type": "article",
         "volume": "57",
         "year": "2019"
-    },
-    "seker_2020_secure": {
-        "author": "Seker, Ensar",
-        "month": "09",
-        "organization": "Lotus Fruit",
-        "title": "Secure IoT Communication Using Blockchain",
-        "type": "misc",
-        "url": "https://medium.com/lotus-fruit/secure-iot-communication-using-blockchain-246f0e6b64a0",
-        "urldate": "2023-05-05",
-        "year": "2020"
     },
     "tan_2020_secure": {
         "abstract": "Nowadays, with rapid advancements of vehicular telematics and communication techniques, proliferation of vehicular ad hoc networks (VANETs) have been witnessed, which facilitates the construction of promising intelligent transportation system (ITS). Due to inherent wireless communicating features in open environment, secure transmission among numerous VANET entities remains crucial issues. Currently, lots of research efforts have been made, while most of which tend to allocate the universal group key to the verified devices for both vehicle-to-vehicle (V2V) and vehicle-to-RSU (V2R) communications. However, in heterogeneous VANET environment with large numbers of devices in same vehicular group, complicated and variable topologies lead to continuous key updating in every moment, causing interference to regular V2R data exchange, which is not reliable and efficient for resource-constrained VANET environment. Moreover, group membership recording and detecting mechanisms are necessary for real time vehicle revocation and participation, which has not been further studied so far. In this paper, we address the above issues by proposing a secure authentication and key management scheme. In our design, novel VANET system model with edge computing infrastructure is adopted so as to offer adequate computing and storing capacity compared to traditional VANET structure. Note that our certificateless authentication scheme applies the independent session key for each vehicle for interference avoidance. Furthermore, consortium blockchain is employed for V2V group key construction. Real time group membership arrangement with efficient group key updating is accordingly provided. Formal security proofs are presented, demonstrating that the proposed scheme can achieve desired security properties. Performance analysis is conducted as well, proving that the proposed scheme is efficient compared with the state-of-the-arts.",
