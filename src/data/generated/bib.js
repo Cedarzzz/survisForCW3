@@ -1,17 +1,5 @@
 ﻿const generatedBibEntries = {
-    "8701642": {
-        "abstract": "The modern intelligent transportation system brings not only new opportunities for vehicular Internet of Things (IoT) services but also new challenges for vehicular ad-hoc networks (VANETs). Apart from enhanced network performance, a practical and reliable security scheme is needed to handle the trust management while preserving user privacy at the same time. The emerging 5G mobile communication system is viewed as a prominent technology for ultra-reliable, low-latency wireless communication services. Furthermore, incorporating software-defined network (SDN) architecture into the 5G-VANET enables global information gathering and network control. Hence, real-time IoT services on transportation monitoring and reporting can be well supported. Both pave the way for an innovative vehicular security scheme. This paper investigates the security and privacy issue in the transportation system and the vehicular IoT environment in SDN-enabled 5G-VANET. Due to the decentralized and immutable characteristics of blockchain, a blockchain-based security framework is designed to support the vehicular IoT services, i.e., real-time cloud-based video report and trust management on vehicular messages. This paper explicitly illustrates the SDN-enabled 5G-VANET model and the scheduling procedures of the blockchain-based framework. The numerical simulation results also show that malicious vehicular nodes or messages can be well detected while the overhead and impact on the network performance are acceptable for large-scale scenarios. Through case studies and theoretical analysis, we demonstrate our design substantially guarantees a secure and trustworthy vehicular IoT environment with user privacy preserved. ,",
-        "author": "Xie, Lixia and Ding, Ying and Yang, Hongyu and Wang, Xinmu",
-        "doi": "10.1109/ACCESS.2019.2913682",
-        "journal": "IEEE Access",
-        "keywords": "type:Roads , Internet of Things , Blockchain , Trust management , Vehicular ad hoc networks , Privacy",
-        "pages": "56656-56666",
-        "title": "Blockchain-Based Secure and Trustworthy Internet of Things in SDN-Enabled 5G-VANETs",
-        "type": "article",
-        "volume": "7",
-        "year": "2019"
-    },
-    "chaudhary_2019_best": {
+    "Chaudhary2019Best": {
         "abstract": "Tactile Internet is a fairly recent technological trend associated with the Internet-of-Things (IoT) era, with potential applications in a broad range of industrial, societal and business use cases. The real-time machine-to-machine and human-to-machine interactions (e.g., in unmanned vehicles and the underpinning infrastructure within the smart city ecosystem) in the intelligent transportation sector, for example, contribute to the potential utility of Tactile Internet in this particular sector (and the broader smart city). In the context of unmanned vehicles, such as unmanned aerial vehicles and electric (ground) vehicles, one of several key challenges to its broader utility is how to design a secure energy trading ecosystem that can be used for purposes such as charging and discharging from the supporting smart grids. Most existing approaches in the literature focused on conventional and centralized security mechanisms, which may not be applicable for energy trading in a smart city environment. Moreover, the need for real-time processing for energy trading computation is one of the essential requirements of Tactile Internet. Therefore, to address these challenges, BEST: a Blockchain-based secure energy trading scheme for electric vehicles (EVs) is proposed in this paper. Specifically, in BEST, blockchain is used to validate EVs' requests in a distributed manner; thus, ensuring resilience against the single point of failure. The miner nodes are selected to validate the requests on the basis of energy requirements, time of stay, dynamic pricing, and connectivity record, as well as other factors that are crucial for the operator at the time of operation. Moreover, to provide low latency and real-time services, software-defined networking is used as the network's backbone to transfer EVs' requests to a global software defined network controller. Finally, BEST is evaluated on the basis of the communication and computation costs incurred during various transactions between the EVs and the smart grid. A case study is also provided to demonstrate the potential deployment of BEST in energy trading.",
         "author": "Chaudhary, Rajat and Jindal, Anish and Aujla, Gagangeet Singh and Aggarwal, Shubhani and Kumar, Neeraj and Choo, Kim-Kwang Raymond",
         "doi": "10.1016/j.cose.2019.05.006",
@@ -25,7 +13,7 @@
         "volume": "85",
         "year": "2019"
     },
-    "ferrag_2021_the": {
+    "Ferrag2021The": {
         "abstract": "This article presents research challenges and a tutorial on performance evaluation of blockchain-based security and privacy systems for the Internet of Things (IoT). We start by summarizing the existing surveys that deal with blockchain security for IoT networks. Then, we review the blockchain-based security and privacy systems for seventeen types of IoT applications, e.g., Industry 4.0, software-defined networking, edge computing, Internet of Drones, Internet of Cloud, Internet of Energy, Internet of Vehicles, etc. We also review various consensus algorithms and provide a comparison with respect to the nine properties, such as latency, throughput, computation, storage, and communication costs, scalability, attack model, advantage, disadvantage, etc. Moreover, we present the security analysis techniques and provide a classification into four categories, including Burrows, Abadi, and Needham (BAN) logic, game theory, theory analysis, and AVISPA tool. In addition, we analyze the performance metrics, blockchain testbeds, and cryptography libraries used in the performance evaluation of blockchain-based security and privacy systems for the IoT networks. Based on the current survey, we discuss the major steps to follow for building and evaluating blockchain-based security and privacy systems. Finally, we discuss and highlight open challenges and future research opportunities. ,",
         "author": "Ferrag, Mohamed Amine and Shu, Lei",
         "doi": "10.1109/jiot.2021.3078072",
@@ -37,7 +25,7 @@
         "volume": "8",
         "year": "2021"
     },
-    "javaid_2020_a": {
+    "Javaid2020A": {
         "abstract": "Recent developments in IoT have facilitated advancements in the Internet of Vehicles (IoV) with autonomous vehicles and roadside infrastructure as its key components. IoV aims to provide new innovative services for different modes of transport with adaptive traffic management and enables vehicles to broadcast messages to improve traffic safety and efficiency. However, due to nontrusted environments, it is difficult for vehicles to evaluate the credibility of the messages that they receive. Therefore, trust establishment in IoV is a key security concern that is constantly limited by scalability challenges. This article proposes a blockchain-based protocol for IoV using smart contracts, physical unclonable functions (PUFs), certificates, and a dynamic Proof-of-Work (dPoW) consensus algorithm. The blockchain, in conjunction with contracts, provides a secure framework for registering trusted vehicles and blocking malicious ones. PUFs are used to assign a unique identity to each vehicle via which trust is established. Certificates are issued by roadside units that preserve the privacy of vehicles, whereas the dPoW consensus allows the protocol to scale according to the incoming traffic generated by the vehicles. To demonstrate the feasibility and scalability of the proposed protocol, security and performance analyses are presented. A case study is also discussed along with a comparative analysis, which confirms that our protocol can provide superior decentralized trust management for IoV.",
         "author": "Javaid, Uzair and Aman, Muhammad Naveed and Sikdar, Biplab",
         "doi": "10.1109/jiot.2020.3002711",
@@ -49,7 +37,7 @@
         "volume": "7",
         "year": "2020"
     },
-    "jo_2018_hybrid": {
+    "Jo2018Hybrid": {
         "abstract": "The Internet-of-things (IoT) and blockchain are growing realities of modern society, and both are rapidly transforming civilization, either separately or in combination. However, the leverage of both technologies for structural health monitoring (SHM) to enable transparent information sharing among involved parties and autonomous decision making has not yet been achieved. Therefore, this study combines IoT with blockchain-based smart contracts for SHM of underground structures to define a novel, efficient, scalable, and secure distributed network for enhancing operational safety. In this blockchain-IoT network, the characteristics of locally centralized and globally decentralized distribution have been activated by dividing them into core and edge networks. This division enhances the efficiency and scalability of the system. The proposed system was effective in simulation for autonomous monitoring and control of structures. After proper design, the decentralized blockchain networks may effectively be deployed for transparent and efficient information sharing, smart contracts-based autonomous decision making, and data security in SHM.",
         "author": "Jo, Byung and Khan, Rana and Lee, Yun-Sung",
         "doi": "10.3390/s18124268",
@@ -63,19 +51,19 @@
         "volume": "18",
         "year": "2018"
     },
-    "lo_2019_analysis": {
+    "Lo2019Analysis": {
         "abstract": "The Internet of Things (IoT) aims at connecting things to the Internet in a peer-to-peer paradigm for data collecting and data sharing in our daily life. A blockchain is an immutable append-only ledger maintained by a peer-to-peer network, where the whole network needs to reach a consensus on the transactional data stored on the ledger. With the decentralization nature, the design of IoT and blockchain aligns with each other well. Blockchain has been integrated with the IoT to solve the existing IoT problems. Our research focuses on analyzing the solutions proposed in academia and the methodologies used to integrate blockchain with the IoT. Through conducting a systematic literature review (SLR) on peer-reviewed, published articles on blockchain-based solutions for IoT, we gather the knowledge on current technical approaches implemented to integrate blockchain into the IoT. Majority of the research in this space is either at a conceptual level or at a very early stage. However, we only found 35 published papers with the real implementation of blockchain in the IoT platforms. We elicit the challenges of the IoT that were being addressed, and the detailed design of the blockchain-based solutions from two perspectives, namely data management and thing management. The evaluation methods and metrics used by those works are also being recorded and analyzed. In addition to the analysis of the literature, we provide our insights on improving the existing solutions and research methodology based on our expertise and experience on the blockchain. ,",
         "author": "Lo, Sin Kuang and Liu, Yue and Chia, Su Yen and Xu, Xiwei and Lu, Qinghua and Zhu, Liming and Ning, Huansheng",
         "doi": "10.1109/access.2019.2914675",
         "journal": "IEEE Access",
-        "keywords": "Blockchain,Internet of Things,Security,Peer-to-peer computing,Data collection,Databases,Smart contracts",
+        "keywords": "type:Blockchain,Internet of Things,Security,Peer-to-peer computing,Data collection,Databases,Smart contracts",
         "pages": "58822-58835",
         "title": "Analysis of Blockchain Solutions for IoT: A Systematic Literature Review",
         "type": "article",
         "volume": "7",
         "year": "2019"
     },
-    "noh_2020_distributed": {
+    "Noh2020Distributed": {
         "abstract": "Vehicular ad-hoc networks (VANETs) have several security issues such as privacy preservation, secure authentication, and system reliability. In the VANET, a vehicle communicates with other vehicles or infrastructures using broadcasting messages. These messages contain not only normal traffic information, but also identification information of sender. In general, the identification information remains encrypted to ensure privacy. However, the conventional centralized system can decrypt the identification information using private information of the sender vehicle. As a result, the central server can often be targeted by adversaries. We propose a message authentication scheme for anonymity and decentralization of information using blockchain technology. Here, we introduce public-private key and message authentication code (MAC) for secure authentication. In this paper, we adopt consensus algorithms for composing blockchain system such as the proof of work (PoW) and Practical Byzantine Fault Tolerance (PBFT) into the proposed authentication process. Finally, we demonstrate that the proposed method is secure from the attacks which include impersonation from internal attacker as well as typical attacks.",
         "author": "Noh, Jaewon and Jeon, Sangil and Cho, Sunghyun",
         "doi": "10.3390/electronics9010074",
@@ -88,7 +76,7 @@
         "volume": "9",
         "year": "2020"
     },
-    "rawat_2019_fusion": {
+    "Rawat2019Fusion": {
         "abstract": "Wireless network virtualization is regarded as a technology to enable sharing of physical wireless infrastructure and RF slices for improving not only wireless network capacity and coverage but also wireless security. This article provides a perspective of fusion of three emerging technologies: SDN, EC, and blockchain technology for wireless network virtualization. SDN, with the help of controllers, allows dynamic configuration of network resources for their efficient management. EC not only helps to process user signals and queries at respective base stations with the shortest possible delay, but also helps to avoid the need of a high-speed backhaul link between a base station and centralized controllers. Blockchain technology protects owners of wireless infrastructures from a double spending attack that allocates the same wireless resource (RF slice) to multiple virtual wireless networks. The proposed approach aims to reduce business friction and increase the trust and transparency in the wireless networking industry.",
         "author": "Rawat, Danda B.",
         "doi": "10.1109/mcom.001.1900196",
@@ -101,7 +89,7 @@
         "volume": "57",
         "year": "2019"
     },
-    "tan_2020_secure": {
+    "Tan2020Secure": {
         "abstract": "Nowadays, with rapid advancements of vehicular telematics and communication techniques, proliferation of vehicular ad hoc networks (VANETs) have been witnessed, which facilitates the construction of promising intelligent transportation system (ITS). Due to inherent wireless communicating features in open environment, secure transmission among numerous VANET entities remains crucial issues. Currently, lots of research efforts have been made, while most of which tend to allocate the universal group key to the verified devices for both vehicle-to-vehicle (V2V) and vehicle-to-RSU (V2R) communications. However, in heterogeneous VANET environment with large numbers of devices in same vehicular group, complicated and variable topologies lead to continuous key updating in every moment, causing interference to regular V2R data exchange, which is not reliable and efficient for resource-constrained VANET environment. Moreover, group membership recording and detecting mechanisms are necessary for real time vehicle revocation and participation, which has not been further studied so far. In this paper, we address the above issues by proposing a secure authentication and key management scheme. In our design, novel VANET system model with edge computing infrastructure is adopted so as to offer adequate computing and storing capacity compared to traditional VANET structure. Note that our certificateless authentication scheme applies the independent session key for each vehicle for interference avoidance. Furthermore, consortium blockchain is employed for V2V group key construction. Real time group membership arrangement with efficient group key updating is accordingly provided. Formal security proofs are presented, demonstrating that the proposed scheme can achieve desired security properties. Performance analysis is conducted as well, proving that the proposed scheme is efficient compared with the state-of-the-arts.",
         "author": "Tan, Haowen and Chung, Ilyong",
         "doi": "10.1109/access.2019.2962387",
@@ -113,7 +101,7 @@
         "volume": "8",
         "year": "2020"
     },
-    "wang_2018_blockchainpowered": {
+    "Wang2018Blockchainpowered": {
         "abstract": "To improve the accuracy of diagnosis and the effectiveness of treatment, a framework of parallel healthcare systems (PHSs) based on the artificial systems + computational experiments + parallel execution (ACP) approach is proposed in this paper. PHS uses artificial healthcare systems to model and represent patients\u2019 conditions, diagnosis, and treatment process, then applies computational experiments to analyze and evaluate various therapeutic regimens, and implements parallel execution for decision-making support and real-time optimization in both actual and artificial healthcare processes. In addition, we combine the emerging blockchain technology with PHS, via constructing a consortium blockchain linking patients, hospitals, health bureaus, and healthcare communities for comprehensive healthcare data sharing, medical records review, and care auditability. Finally, a prototype named parallel gout diagnosis and treatment system is built and deployed to verify and demonstrate the effectiveness and efficiency of the blockchain-powered PHS framework.",
         "author": "Wang, Shuai and Wang, Jing and Wang, Xiao and Qiu, Tianyu and Yuan, Yong and Ouyang, Liwei and Guo, Yuanyuan and Wang, Fei-Yue",
         "doi": "10.1109/tcss.2018.2865526",
@@ -126,21 +114,33 @@
         "volume": "5",
         "year": "2018"
     },
-    "wei_2020_blockchain": {
+    "Wei2020Blockchain": {
         "abstract": "Despite the rapid development of cloud computing for many years, data security and trusted computing are still the main challenges in current cloud computing applications. In order to solve this problem, many scholars have carried out a lot of research on this, and proposed many models including data integrity test and secure multi-party calculation. However, most of these solutions face problems such as excessive computational complexity or lack of scalability. This paper studies the use of blockchain techniques to improve this situation. Blockchain is a decentralized new distributed computing paradigm. Applying blockchain technology to cloud computing, using the security mechanism of the former to improve the performance of the latter\u2019s secure storage and secure computing is a promising research topic. In this paper, the distributed virtual machine agent model is deployed in the cloud by using mobile agent technology. The virtual machine agent enables multi-tenants to cooperate with each other to ensure data trust verification. The tasks of reliable data storage, monitoring and verification are completed by virtual machine agent mechanism. This is also a necessary condition for building a blockchain integrity protection mechanism. The blockchain-based integrity protection framework is built by the virtual machine proxy model, and the unique hash value corresponding to the file generated by the Merkel hash tree is used to monitor the data change by means of the smart contract on the blockchain, and the data is owned in time. The user issues a warning message for data tampering; in addition, a \u201cblock-and-response\u201d mode is used to construct a blockchain-based cloud data integrity verification scheme. ,",
         "author": "Wei, PengCheng and Wang, Dahu and Zhao, Yu and Tyagi, Sumarga Kumar Sah and Kumar, Neeraj",
         "doi": "10.1016/j.future.2019.09.028",
         "journal": "Future Generation Computer Systems",
         "keywords": "type:Blockchain,Cloud data,Integrity verification,Merkel hash tree",
         "month": "01",
-        "pages": "902\u2013911",
+        "pages": "902-911",
         "title": "Blockchain data-based cloud data integrity protection mechanism",
         "type": "article",
         "url": "https://www.sciencedirect.com/science/article/pii/S0167739X19313494",
         "volume": "102",
         "year": "2020"
     },
-    "zhu_2020_consensusoriented": {
+    "Xie2019Blockchain": {
+        "abstract": "The modern intelligent transportation system brings not only new opportunities for vehicular Internet of Things (IoT) services but also new challenges for vehicular ad-hoc networks (VANETs). Apart from enhanced network performance, a practical and reliable security scheme is needed to handle the trust management while preserving user privacy at the same time. The emerging 5G mobile communication system is viewed as a prominent technology for ultra-reliable, low-latency wireless communication services. Furthermore, incorporating software-defined network (SDN) architecture into the 5G-VANET enables global information gathering and network control. Hence, real-time IoT services on transportation monitoring and reporting can be well supported. Both pave the way for an innovative vehicular security scheme. This paper investigates the security and privacy issue in the transportation system and the vehicular IoT environment in SDN-enabled 5G-VANET. Due to the decentralized and immutable characteristics of blockchain, a blockchain-based security framework is designed to support the vehicular IoT services, i.e., real-time cloud-based video report and trust management on vehicular messages. This paper explicitly illustrates the SDN-enabled 5G-VANET model and the scheduling procedures of the blockchain-based framework. The numerical simulation results also show that malicious vehicular nodes or messages can be well detected while the overhead and impact on the network performance are acceptable for large-scale scenarios. Through case studies and theoretical analysis, we demonstrate our design substantially guarantees a secure and trustworthy vehicular IoT environment with user privacy preserved. ,",
+        "author": "Xie, Lixia and Ding, Ying and Yang, Hongyu and Wang, Xinmu",
+        "doi": "10.1109/ACCESS.2019.2913682",
+        "journal": "IEEE Access",
+        "keywords": "type:Roads , Internet of Things , Blockchain , Trust management , Vehicular ad hoc networks , Privacy",
+        "pages": "56656-56666",
+        "title": "Blockchain-Based Secure and Trustworthy Internet of Things in SDN-Enabled 5G-VANETs",
+        "type": "article",
+        "volume": "7",
+        "year": "2019"
+    },
+    "Zhu2020Consensusoriented": {
         "abstract": "In the era of cloud computing and Industry 4.0, significant research efforts on cloud manufacturing have been witnessed in recent years. Nevertheless, challenges, such as issues of trust, safety, payment, remain in this emerging area, which cause less confidence for industry to adopt cloud manufacturing. In this regard, the recent development of blockchain technology provides a potential viable solution thanks to its unique advantages in decentralization and security. As such, we propose a new framework of cloud manufacturing by integrating the blockchain technology. In essence, consensus-oriented mechanisms are employed to generate the operating standards for the blockchain cloud manufacturing model. Moreover, based on the open source Ethereum code, we construct a simulation case study for 3D printing services using the proposed framework. A consortium or federated blockchain is simulated which uses Proof-of-Authority (PoA) as the consensus algorithm of block generation. The simulation involves 939 job requests from 100 users, as well as 10 service providers. The k-nearest neighbors (KNN) algorithm is employed to recommend the service provider for each request. The results show that the provider\u2019s score of service evaluation tends to be stabilize, and 934 requests for service are successfully fulfilled by the appropriate providers while the remaining 5 requests fail to be serviced.",
         "author": "Zhu, Xiaobao and Shi, Jing and Huang, Samuel and Zhang, Bin",
         "doi": "10.1016/j.pmcj.2020.101113",
